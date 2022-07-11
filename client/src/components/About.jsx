@@ -37,7 +37,7 @@ function About() {
     <div>
       <Paper elevation={3} className={classes.tableCont} component={Paper}>
         <Typography className={classes.text} >
-          Компания ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ИнтоСтрой"
+          Компания ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "Aльмет"
           зарегистрирована 26.01.2022 г. в городе Грозный. Краткое наименование:
           ИнтоСтрой. При регистрации организации присвоен ОГРН 10216064442952,
           ИНН 1444400006 и КПП 10000001. Юридический адрес: РЕСПУБЛИКА ЧЕЧНЯ
@@ -61,7 +61,7 @@ function About() {
       </Paper>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>О нас</title>
+        <title>About</title>
         <link rel="canonical" href="/home" />
       </Helmet>
     </div>

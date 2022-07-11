@@ -120,16 +120,16 @@ export default function Main() {
               {" "}
             </StyledTableCell>
             <StyledTableCell className={classes.table} align="center">
-              Название объекта
+            Name of the object
             </StyledTableCell>
             <StyledTableCell className={classes.table} align="left">
-              Последнее изменение
+            Last change
             </StyledTableCell>
             <StyledTableCell className={classes.table} align="left">
-              Статус
+            Status
             </StyledTableCell>
             <StyledTableCell className={classes.table} align="left">
-              Записей
+            Records
             </StyledTableCell>
           </TableRow>
         </TableHead>

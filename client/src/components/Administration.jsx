@@ -257,7 +257,7 @@ export default function Administration() {
       </Dialog>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Администратор</title>
+        <title>Admin</title>
         <link rel="canonical" href="http://localhost:3000/" />
       </Helmet>
     </Paper>

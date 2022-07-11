@@ -51,7 +51,7 @@ module.exports.objectController = {
 
     if (objectName.length < 0) {
       return res.json({
-        error: "Слишком короткое название объекта",
+        error: "The name of the object is too short",
       });
     }
 
@@ -75,10 +75,10 @@ module.exports.objectController = {
       const deleteObject = await Object.findByIdAndDelete({ _id: id });
 
       if (deleteObject) {
-        res.json("Объект удален");
+        res.json("The object has been deleted");
 
       } else {
-        res.json('не удалось удалить')
+        res.json('Failed to delete')
       }
     } catch (e) {
       res.json(e);

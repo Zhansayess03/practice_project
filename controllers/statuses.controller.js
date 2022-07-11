@@ -19,11 +19,11 @@ module.exports.statusControllers = {
       if (status.length < 0) {
         return res.json({
           error:
-            "Слишком короткое название статуса",
+            "The status name is too short",
         });
       }
       await statuses.save();
-      res.json("Статус добавлен");
+      res.json("Status added");
     } catch (e) {
       res.json(e);
     }

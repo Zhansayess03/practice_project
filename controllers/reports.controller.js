@@ -18,7 +18,7 @@ module.exports.reportControllers = {
     if (report.length < 5) {
       return res.json({
         error:
-          "Слишком короткий отчет. Количество символов не должно быть меньше 5",
+          "The report is too short. The number of characters must not be less than 5",
       });
     }
 
