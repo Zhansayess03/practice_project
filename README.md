@@ -1,39 +1,39 @@
-# practice_project  # Приложение строительного подрядчика
+# practice_project 
+ # Application for a construction company
+<p> This app is useful for a construction contractor </p>
 
-<p> Это приложение полезно для строительного подрядчика </p>
+<p><a href="https://contractor-site.herokuapp.com/" target="_blank">Open the application</a></p>
 
-<p><a href="https://contractor-site.herokuapp.com/" target="_blank">Открыть приложение</a></p>
-
-## Функционал сайта
+## Site functionality
 
 ![gif](http://g.recordit.co/0yk5Q2ILr2.gif)
 
 
 
-- Поиск объектов по названию
-- Добавление и удаление объектов
-- Добавление и изменение отчетов
-- Добавление статусов
+- Search for objects by name
+- Adding and deleting objects
+- Adding and modifying reports
+- Adding statuses
 
 
 ![gif](http://g.recordit.co/oNzAWaI1NM.gif)
 
 
-## Запуск проекта
+## Project launch
 
-Для запуска проекта вам необходимо набрать команду в терминале:
+To start the project, you need to type a command in the terminal:
 
 ```javascript
 npm i
 ```
 
-После набрать команду:
+After typing the command:
 
 ```javascript
 npm run dev
 ```
 
-## Технологии проекта
+## Project technologies
 
 <p>
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
@@ -52,10 +52,10 @@ npm run dev
 
 ---
 
-### Для выполнения поставленных задач я использовал следующие библиотеки:
+### To perform the tasks I have used the following libraries:
 
-- redux, redux-thunk - чтобы создавать асинхронные экшены
-- react-router-dom - для роутинга
-- и еще material-ui, react-icons
+- redux, redux-thunk - to create asynchronous actions
+- react-router-dom - for routing
+- and material-ui, react-icons
 
 ---
