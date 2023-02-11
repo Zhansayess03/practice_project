@@ -2,7 +2,6 @@
  # Application for a construction company
 <p> This app is useful for a construction contractor </p>
 
-<p><a href="https://contractor-site.herokuapp.com/" target="_blank">Open the application</a></p>
 
 ## Site functionality
 
